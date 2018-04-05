@@ -6174,6 +6174,12 @@
     <public type="array" name="imAddressTypes" id="0x0107006b" />
     <public type="array" name="network_switch_type_name" id="0x0107006c" />
     <public type="array" name="carrier_properties" id="0x0107006d" />
+    <public type="array" name="preferred_network_mode_entries_phone0" id="0x0107006e" />
+    <public type="array" name="preferred_network_mode_entries_phone1" id="0x0107006f" />
+    <public type="array" name="gsm_network_mode_values_phone0" id="0x01070070" />
+    <public type="array" name="gsm_network_mode_values_phone1" id="0x01070071" />
+    <public type="array" name="cdma_network_mode_values_phone0" id="0x01070072" />
+    <public type="array" name="cdma_network_mode_values_phone1" id="0x01070073" />
     <public type="drawable" name="blank_tile" id="0x010800d1" />
     <public type="drawable" name="default_wallpaper" id="0x0108025b" />
     <public type="drawable" name="loading_tile" id="0x010804ea" />
@@ -9224,6 +9230,7 @@
     <public type="bool" name="config_usb_data_unlock" id="0x011200e7" />
     <public type="bool" name="operator_custom_sim_icon" id="0x011200e8" />
     <public type="bool" name="lockscreen_isPortrait" id="0x011200e9" />
+    <public type="bool" name="adjust_network_mode_values_enabled" id="0x011200ea" />
     <public type="bool" name="kg_share_status_area" id="0x0112000b" />
     <public type="bool" name="kg_sim_puk_account_full_screen" id="0x0112000c" />
     <public type="fraction" name="config_dimBehindFadeDuration" id="0x01130000" />
@@ -9481,4 +9488,6 @@
     <public type="^attr-private" name="minimalWidth" id="0x011600c9" />
     <public type="^attr-private" name="minimalHeight" id="0x011600ca" />
     <public type="^attr-private" name="needAccessControl" id="0x011600cb" />
+    <public type="^attr-private" name="layout_maxHeight" id="0x011600cc" />
+    <public type="^attr-private" name="layout_minHeight" id="0x011600cd" />
 </resources>
